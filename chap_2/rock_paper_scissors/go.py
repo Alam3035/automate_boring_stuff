@@ -24,22 +24,22 @@ while True:
     print("Type one of r, p, s or q")
 
     if playerMove == 'r':
-        print(name+' used ROCK')
+        print(name+' threw ROCK')
     elif playerMove == 'p':
-        print(name+' used PAPER')
+        print(name+' threw PAPER')
     elif playerMove == 's':
-        print(name+' used SCISSORS')
+        print(name+' threw SCISSORS')
 
     randomNumber = random.randint(1,3)
     if randomNumber == 1:
         computerMove = "r"
-        print('AI used ROCK')
+        print('AI threw ROCK')
     if randomNumber == 2:
         computerMove = "p"
-        print('AI used PAPER')
+        print('AI threw PAPER')
     if randomNumber == 3:
         computerMove = "s"
-        print('AI used SCISSORS')
+        print('AI threw SCISSORS')
 
 
     if playerMove == computerMove:
